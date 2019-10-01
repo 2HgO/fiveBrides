@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.gogo.grpc";
+option java_outer_classname = "JavaService";
+//option objc_class_prefix = "HLW";
+
+package java;
+
+
+message HelloRequest {
+    string name = 1;
+}
+
+message HelloReply {
+    string message = 1;
+}
+
+service Greeter {
+    rpc SayHello (HelloRequest) returns (HelloReply) {}
+}
