@@ -1,0 +1,4 @@
+[deps]
+HPack = "ac4eac4a-97af-5557-9a41-b7bc20405a4a"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+HTTP2 = "d274f558-d366-508a-a164-2611506323a4"

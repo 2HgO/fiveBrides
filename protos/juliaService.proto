@@ -1,15 +1,15 @@
 syntax = "proto3";
 
-package cpp;
+package julia;
 
 service Greeter {
     rpc SayHello (HelloRequest) returns (HelloReply) {}
 }
 
 message HelloRequest {
-    optional string name = 1;
+    string name = 1;
 }
 
 message HelloReply {
-    required string message = 1;
+    string message = 1;
 }
